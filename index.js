@@ -1,5 +1,4 @@
 import express from 'express';
-import cors from 'cors';
 import longestWord from './Bootcamp/longestWord.js'
 import shortestWord from './Bootcamp/shortestWord.js'
 import wordLengths from './Bootcamp/wordLengths.js'
@@ -9,7 +8,6 @@ import enoughAirtime from './Bootcamp/enoughAirtime.js';
 const app = express();
 app.use(express.static('public'));
 app.use(express.json());
-app.use(cors());
 
 
 app.get("/api/word_game", (req, res) => {

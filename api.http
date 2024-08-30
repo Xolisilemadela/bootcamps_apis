@@ -1,13 +1,13 @@
-POST https://bootcamp-apis.onrender.com/api/phonebill/total
+POST https://bootcamps-apis.onrender.com/api/phonebill/total
 content-type: application/json
 
 {
-	"bill" : "call,call,call,sms,sms,call"
+	"bill" : "call,call,call,sms,sms,cal
 }
 
 ###
 
-POST https://bootcamp-apis.onrender.com/api/enough
+POST https://bootcamps-apis.onrender.com/api/enough
 content-type: application/json
 
 {
@@ -16,7 +16,7 @@ content-type: application/json
 }
 ###
 
-POST https://bootcamp-apis.onrender.com/api/phonebill/price
+POST https://bootcamps-apis.onrender.com/api/phonebill/price
 content-type: application/json
 
 {
