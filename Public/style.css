@@ -1,0 +1,42 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color:purple;
+}
+
+h1{
+    text-align: center;
+    background-color: #ffbe0b;
+    border: 1px solid grey;
+    padding: 1em;
+    
+}
+
+.widget{
+    background-color: #ff006e;
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: 1em;
+    border: 1px solid black;
+    flex: 1;
+}
+
+button{
+    padding: 1em;
+    border: 3px solid;
+    border-radius: 1em;
+}
+input{
+    padding: 0.5em;
+}
+
+.message{
+    padding: 1em;
+    background-color: lightgreen;
+    margin-bottom: 1em;
+}
+
+@media(min-width:960px){
+    .flex-model{
+        display: flex;
+    }
+}
