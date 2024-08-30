@@ -2,7 +2,7 @@ POST https://bootcamps-apis.onrender.com/api/phonebill/total
 content-type: application/json
 
 {
-	"bill" : "call,call,call,sms,sms,call
+	"bill" : "call,call,call,sms,sms,call"
 }
 
 ###
