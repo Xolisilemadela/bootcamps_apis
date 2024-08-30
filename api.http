@@ -2,7 +2,7 @@ POST https://bootcamps-apis.onrender.com/api/phonebill/total
 content-type: application/json
 
 {
-	"bill" : "call,call,call,sms,sms,cal
+	"bill" : "call,call,call,sms,sms,call
 }
 
 ###
@@ -14,6 +14,7 @@ content-type: application/json
 	"usage" : "call,sms,call,data",
 	"available" : 54
 }
+
 ###
 
 POST https://bootcamps-apis.onrender.com/api/phonebill/price
